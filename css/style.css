@@ -1,0 +1,376 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: #3b5998;
+}
+header {
+    border-bottom: 2px black solid;
+}
+
+header h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+/* sekcja nawigacja */
+
+.navbar{
+    background-color:#3b5998;
+    overflow:hidden;
+    height:80px;
+  }
+  
+  .navbar a{
+    float:left;
+    display:block;
+    color:#f2f2f2;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:20px;
+  }
+  
+  .navbar ul{
+    margin:8px 0 0 0;
+    list-style:none;
+  }
+  
+  .navbar a:hover{
+    background-color:#ddd;
+    color:#000;
+  }
+
+  .navbar-nav .active {
+    background-color:#ddd;
+    color:#000;
+    font-weight: bold;
+    border-bottom: 5px black solid;
+  }
+  
+  
+  .side-nav{
+    height:100%;
+    width:0;
+    position:fixed;
+    z-index:1;
+    top:0;
+    left:0;
+    background-color:#111;
+    opacity:0.9;
+    overflow-x:hidden;
+    padding-top:60px;
+    transition:0.5s;
+  }
+  
+  .side-nav a{
+    padding:10px 10px 10px 30px;
+    text-decoration:none;
+    font-size:22px;
+    color:#ccc;
+    display:block;
+    transition:0.3s;
+  }
+  
+  .side-nav a:hover{
+    color:#fff;
+  }
+  
+  .side-nav .btn-close{
+    position:absolute;
+    top:0;
+    right:22px;
+    font-size:45px;
+    margin-left:50px;
+  }
+
+
+
+  @media(max-width:568px){
+    .navbar-nav{display:none}
+  }
+
+  @media(max-width:568px){
+    header h1 {
+        font-size: 100%;
+        margin-bottom: 8px;
+    
+    }
+  }
+
+/* sekcja ostatnie wyniki (.last-game), następne mecze (.next-game) */
+
+table {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.last-game {
+    font-size: 1.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: lightgrey;
+    margin-top: 0px;
+}
+.last-game h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.last-game table th{
+    font-weight: inherit;
+    text-align: center;
+    padding: 2px;
+}
+
+.last-game table tr {
+    text-align: center;
+}
+
+.last-game table td {
+    font-size: 0.8em;
+}
+
+.next-game {
+    font-size: 1.5em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: lightgrey;
+    margin-top: 0px;
+}
+
+.next-game h3 {
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+
+.next-game table th{
+    font-weight: inherit;
+    text-align: center;
+    padding: 2px;
+}
+
+.next-game table tr {
+    text-align: center;
+}
+
+.next-game table td {
+    font-size: 0.8em;
+}
+
+/* Koniec sekcji last-game i next-game */
+
+/* sekcja tabela ranking */
+
+#ranking {
+    background-color: lightgrey;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#ranking h3 {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+/* sekcja - ranking TOP 10 zawodników */
+
+#top10 {
+    background-color: lightgrey;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#top10 h3 {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+#top10 table tr th {
+    text-align: center;
+}
+
+footer {
+    background-color: #3B5998;
+    height: 60px;
+    width: 100vw;
+    color: black;
+    font-weight: bold;
+}
+
+footer .fa-trademark {
+    font-size: smaller;
+}
+
+/* START section article */
+
+#article1 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article1 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+#article2 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article2 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+#article3 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article3 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+#article4 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article4 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+#article5 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article5 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+#article6 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article6 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+#article7 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article7 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+#article8 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article8 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+}
+
+#article9 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article9 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}
+
+#article10 {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 10px;
+    text-align: justify;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+}
+
+#article10 div img {
+    max-width: 100%;
+    margin-top: 3%;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+
+}

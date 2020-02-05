@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="MOHT, Marvins Oliwa Hockey Team, Oliwa Hockey Team, OHT, Marvins">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <title>Marvins Oliwa Hockey Team</title>
+</head>
+<body>
+        <header class="container">
+                <div class="row">
+                        <div class="col-md-12">    
+                            <h1><img src="img/marvinslogosmall.png">&nbsp;&nbsp;&nbsp;MARVINS OLIWA HOCKEY TEAM&nbsp;&nbsp;&nbsp;<img src="img/mohtlogosmall.png"></h1>
+                        </div>
+                </div>            
+        </header>
+    <!-- navigacja -->
+    <nav class="navbar container">
+        <span class="open-slide">
+          <a href="#" onclick="openSlideMenu()">
+            <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#1E1E1E" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#1E1E1E" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#1E1E1E" stroke-width="5"/>
+            </svg>
+          </a>
+        </span> 
+        <ul class="navbar-nav">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="aktualnosci.html">Aktualności</a></li>
+          <li><a href="#">Drużyna</a></li>
+          <li><a href="terminarz.html">Terminarz</a></li>
+          <li><a href="tabela.html">Tabela</a></li>
+          <li><a href="statystyki.html">Statystyki</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="mailto:cvs@wp.pl">Kontakt</a></li>
+          <li><a href="http://stoczniowiec.org.pl/" style="margin: 0; padding:0;"><img src="img/stoczniowieclogo.png"></a></li>
+        </ul>
+    </nav>    
+    <div id="side-menu" class="side-nav">
+        <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="aktualnosci.html">Aktualności</a>
+        <a href="#">Drużyna</a>
+        <a href="terminarz.html">Terminarz</a>
+        <a href="tabela.html">Tabela</a>
+        <a href="statystyki.html">Statystyki</a>
+        <a href="galeria.html">Galeria</a>
+        <a href="mailto:cvs@wp.pl">Kontakt</a>
+    </div>
+    <!-- END navigacja -->
+    <!-- sekcja ostatnie wyniki (.last-game), następne mecze (.next-game) -->
+    <section class="container" id="section-A">
+        <div class="row">
+            <div class="col-md-6 last-game">
+                <h3 class="text-uppercase">Ostatnie mecze</h3>
+                <table class="table table-condensed">
+                    <tr>
+                        <th>Data</th>
+                        <th>Gospodarze</th>
+                        <th>Wynik</th>
+                        <th>Goście</th>
+                    </tr>
+                    <tr>
+                        <td>15.02.2018</td>
+                        <td><img src="img/mohtlogoxxsmall.png" alt="MOHT">&nbsp;MOHT</td>
+                        <td data-toggle="popover" data-placement="bottom" title="(7:0, 7:0, 3:1)">17:1</td>
+                        <td><img src="img/logoFanclub.gif" alt="Fanclub">&nbsp;Fanclub</td>
+                    </tr>
+                    <tr>
+                        <td>01.03.2018</td>
+                        <td><img src="img/mohtlogoxxsmall.png" alt="MOHT">&nbsp;MOHT</td>
+                        <td data-toggle="popover" data-placement="bottom" title="(3:0, 3:1, 3:0)">9:1</td>
+                        <td><img src="img/logoGrizzlies.gif" alt="Grizzlies">&nbsp;Grizzlies</td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="col-md-6 next-game">
+                <h3 class="text-uppercase">Najbliższe mecze - PÓŁFINAŁ</h3>
+                <table class="table table-condensed">
+                    <tr>
+                        <th><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span></th>
+                        <th><span class="glyphicon glyphicon-time" aria-hidden="true"></span></th>
+                        <th colspan="3">Pomiędzy</th>
+                        <th><span class="glyphicon glyphicon-globe" aria-hidden="true"></span></th>
+                    </tr>
+                    <tr>
+                        <td>08.03.2018</td>
+                        <td>21:20</td>
+                        <td><img src="img/mohtlogoxxsmall.png" alt="MOHT">&nbsp;MOHT</td>
+                        <td>vs.</td>
+                        <td><img src="img/logoMaddogs.gif" alt="Mad Dogs">&nbsp;Mad Dogs</td>
+                        <td style="font-size: 0.6em;">Hala Olivia,<br> duża hala</td>
+                    </tr>
+                    <tr>
+                        <td>13.03.2018</td>
+                        <td>21:20</td>
+                        <td><img src="img/mohtlogoxxsmall.png" alt="MOHT">&nbsp;MOHT</td>
+                        <td>vs.</td>
+                        <td><img src="img/logoMaddogs.gif" alt="Mad Dogs">&nbsp;Mad Dogs</td>
+                        <td style="font-size: 0.6em;">Hala Olivia,<br> duża hala</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!-- KONIEC sekcji ostatnie wyniki (.last-game), następne mecze (.next-game) -->
+    <br>
+    <!-- sekcja TABELA RANKING -->
+    <section class="container" id="ranking">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <table class="table table-responsive">
+                    <tr>
+                        <th colspan="8">
+                            <h3>Tabela TLH</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Drużyna</th>
+                        <th data-toggle="popover" title="Mecze rozegrane">M</th>
+                        <th data-toggle="popover" title="Zwycięstwa">Z</th>
+                        <th data-toggle="popover" title="Remisy">R</th>
+                        <th data-toggle="popover" title="Przegrane">P</th>
+                        <th data-toggle="popover" title="Bramki">B</th>
+                        <th data-toggle="popover" title="Punkty">Pkt</th>
+                    </tr>    
+                        <tr>
+                            <td>1</td>
+                            <td><img src="img/mohtlogoxxsmall.png">&nbsp;&nbsp;&nbsp;MOHT</td>
+                            <td>14</td>  <!-- mecze rozegrane -->
+                            <td>11</td>  <!-- zwycięstwa -->
+                            <td>0</td>  <!-- remisy -->
+                            <td>3</td>  <!-- przegrane -->
+                            <td>108:33</td>  <!-- bramki -->
+                            <td>33</td>  <!-- punkty -->
+                        </tr>   
+                        <tr>   
+                                <td>2</td>
+                                <td><img src="img/logoGoldwell.gif">&nbsp;&nbsp;&nbsp;Goldwell Gdańsk</td>
+                                <td>14</td>  <!-- mecze rozegrane -->
+                                <td>10</td>  <!-- zwycięstwa -->
+                                <td>0</td>  <!-- remisy -->
+                                <td>4</td>  <!-- przegrane -->
+                                <td>106:35</td>  <!-- bramki -->
+                                <td>31</td>  <!-- punkty -->                                     
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td><img src="img/logoGdynia.gif">&nbsp;&nbsp;&nbsp;GKH Gdynia</td>
+                                <td>14</td>  <!-- mecze rozegrane -->
+                                <td>10</td>  <!-- zwycięstwa -->
+                                <td>0</td>  <!-- remisy -->
+                                <td>4</td>  <!-- przegrane -->
+                                <td>104:41</td>  <!-- bramki -->
+                                <td>30</td>  <!-- punkty --> 
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td><img src="img/logoMaddogs.gif">&nbsp;&nbsp;&nbsp;Mad Dogs Sopot</td>
+                                <td>14</td>  <!-- mecze rozegrane -->
+                                <td>10</td>  <!-- zwycięstwa -->
+                                <td>0</td>  <!-- remisy -->
+                                <td>4</td>  <!-- przegrane -->
+                                <td>115:52</td>  <!-- bramki -->
+                                <td>29</td>  <!-- punkty -->
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td><img src="img/logoDragons.gif">&nbsp;&nbsp;&nbsp;Dragons</td>
+                                <td>14</td>  <!-- mecze rozegrane -->
+                                <td>9</td>  <!-- zwycięstwa -->
+                                <td>0</td>  <!-- remisy -->
+                                <td>5</td>  <!-- przegrane -->
+                                <td>104:52</td>  <!-- bramki -->
+                                <td>26</td>  <!-- punkty -->                                   
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td><img src="img/logoLider.png">&nbsp;&nbsp;&nbsp;Lider HT</td>
+                                <td>14</td>  <!-- mecze rozegrane -->
+                                <td>4</td>  <!-- zwycięstwa -->
+                                <td>0</td>  <!-- remisy -->
+                                <td>10</td>  <!-- przegrane -->
+                                <td>53:91</td>  <!-- bramki -->
+                                <td>13</td>  <!-- punkty -->
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td><img src="img/logoFanclub.gif">&nbsp;&nbsp;&nbsp;FCDH</td>
+                                <td>14</td>  <!-- mecze rozegrane -->
+                                <td>2</td>  <!-- zwycięstwa -->
+                                <td>0</td>  <!-- remisy -->
+                                <td>12</td>  <!-- przegrane -->
+                                <td>21:140</td>  <!-- bramki -->
+                                <td>5</td>  <!-- punkty -->
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td><img src="img/logoGrizzlies.gif">&nbsp;&nbsp;&nbsp;Grizzlies Gdynia</td>
+                                <td>14</td>  <!-- mecze rozegrane -->
+                                <td>0</td>  <!-- zwycięstwa -->
+                                <td>0</td>  <!-- remisy -->
+                                <td>14</td>  <!-- przegrane -->
+                                <td>12:182</td>  <!-- bramki -->
+                                <td>1</td>  <!-- punkty -->         
+                        </tr>
+                </table>
+                <div class="col-md-1"></div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <!-- sekcja - ranking TOP 5 zawidników -->
+    <section class="container" id="top10">
+        <div class="row">
+            <div class="col-md-4">
+                <table class="table table-responsive table-striped">
+                    <tr>
+                        <th colspan="3">
+                            <h3>TOP 5 Najskuteczniejsi</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Imię Nazwisko</th>
+                        <th>Punkty</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>Jakub Walicki</th>
+                        <th>51</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Artur Kazimierczak</th>
+                        <th>41</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Oliver Campbell</th>
+                        <th>25</th>    
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Jakub Stańczyk</th>
+                        <th>18</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>Arkadiusz Bruliński</th>
+                        <th>18</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-responsive table-striped">
+                    <tr>
+                        <th colspan="3">
+                            <h3>TOP 5 Strzelcy</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Imię Nazwisko</th>
+                        <th>Bramki</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>Jakub Walicki</th>
+                        <th>32</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Artur Kazimierczak</th>
+                        <th>20</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Oliver Campbell</th>
+                        <th>11</th>
+                    </tr>            
+                    <tr>
+                        <th>4</th>
+                        <th>Arkadiusz Bruliński</th>
+                        <th>9</th>
+                    </tr>
+                    <tr>
+                        <th>5</th>
+                        <th>Tomasz Kulkis</th>
+                        <th>8</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-responsive table-striped">
+                    <tr>
+                        <th colspan="3">
+                            <h3>TOP 5 Asystenci</h3>
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>#</th>
+                        <th>Imię Nazwisko</th>
+                        <th>Asysty</th>
+                    </tr>
+                    <tr>
+                        <th>1</th>
+                        <th>Artur Kazimierczak</th>
+                        <th>21</th>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <th>Jakub Walicki</th>
+                        <th>19</th>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <th>Oliver Campbell</th>
+                        <th>14</th>
+                    </tr>
+                    <tr>
+                        <th>4</th>
+                        <th>Jakub Stańczyk</th>
+                        <th>14</th>
+                    </tr>  
+                    <tr>
+                        <th>5</th>
+                        <th>Maciej Kondlewski</th>
+                        <th>10</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+</section>
+    <!-- KONIEC sekcja - ranking TOP 5 zawidników -->
+<footer class="container">
+      <h4><i class="fa fa-copyright" aria-hidden="true"></i>&nbsp; tec{tonic}&nbsp;<i class="fa fa-trademark" aria-hidden="true"></i>&nbsp;&nbsp;2017 &nbsp;&nbsp; updated: 19:00h, 06-03-2018</h4>
+</footer>
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+    function openSlideMenu(){
+      document.getElementById('side-menu').style.width = '250px';
+      document.getElementById('main').style.marginLeft = '250px';
+    }
+
+    function closeSlideMenu(){
+      document.getElementById('side-menu').style.width = '0';
+      document.getElementById('main').style.marginLeft = '0';
+    }
+    </script>
+</body>
+</html>
